@@ -19,3 +19,8 @@ console.log("Temp Directory: " + os.tmpdir());
 console.log("CPU Core Count: " + os.cpus().length);
 console.log("CPU Model: " + os.cpus()[0].model);
 console.log("CPU Speed: " + os.cpus()[0].speed + " MHz");
+// Additional information, to demo branching
+console.log("CPU Times: " + os.cpus()[0].times);
+console.log("Network Interfaces: " + os.networkInterfaces());
+console.log("Endianness: " + os.endianness());
+console.log("Load Average: " + os.loadavg());
